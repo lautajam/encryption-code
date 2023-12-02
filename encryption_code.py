@@ -296,7 +296,7 @@ def encyption(code: str) -> str:
 
     string_encrypted = get_encrypted(code)
 
-    # if number != 0:
+    # if (number % 2) == 0:
     #     string_encrypted = encryption_long_algorithm(string_encrypted, (number - 1))
 
     return string_encrypted
